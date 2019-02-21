@@ -68,7 +68,7 @@ namespace storage_blobs_dotnet_quickstart
             // Studio, the shell needs to be closed and reloaded to take the environment variable into account.
             
             //string storageConnectionString = Environment.GetEnvironmentVariable("storageconnectionstring");
-            string storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=ajslabstor02;AccountKey=YEA6cRzgrObIIrtQjs9+R+JJHxMo33qlxVCC+OhF3Omf8glK5FZTEZvioN9baxbJYebDWTGdOg/5Hg5QOy289A==;EndpointSuffix=core.windows.net";
+            string storageConnectionString = "<storage connection string>";
 
             // Check whether the connection string can be parsed.
             if (CloudStorageAccount.TryParse(storageConnectionString, out storageAccount))
